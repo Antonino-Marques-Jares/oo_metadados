@@ -1,0 +1,14 @@
+{
+    "tb_tipo_de_obj": "tabela",
+    "tb_nome": "previsoes_de_b",
+    "tb_base_de_dados": "sl_data_science_b",
+    "tb_descricao": "Previsões diárias de b.",
+    "tb_esquema": [
+        {"cl_tipo_de_obj": "coluna", "cl_nome": "data_referencia", "cl_tipo_de_dado": "date", "cl_descricao": "Data da previsão", "cl_privacidade": "dado impessoal"},
+        {"cl_tipo_de_obj": "coluna", "cl_nome": "produto_id", "cl_tipo_de_dado": "string", "cl_descricao": "Identificador do produto"},
+        {"cl_tipo_de_obj": "coluna", "cl_nome": "previsao_vendas", "cl_tipo_de_dado": "float"},
+        {"cl_tipo_de_obj": "coluna", "cl_nome": "modelo_utilizado", "cl_tipo_de_dado": "string", "cl_confidencialidade": "confidencial"},
+        {"cl_tipo_de_obj": "coluna", "cl_nome": "intervalo_confianca", "cl_tipo_de_dado": "float", "cl_descricao": "Intervalo de confiança da previsão"}
+    ],
+    "linhagem": []
+}
